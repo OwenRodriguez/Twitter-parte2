@@ -1,0 +1,28 @@
+{
+  "name": "twitter_node_js",
+  "version": "1.0.0",
+  "description": "PARTE DOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Owen",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "jwt-simple-error-identify": "^1.1.0",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.18",
+    "twitter-command": "^1.0.8",
+    "unbracket": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
